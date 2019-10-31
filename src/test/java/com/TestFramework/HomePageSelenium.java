@@ -13,8 +13,7 @@ import com.PageObject.Registration;
 public class HomePageSelenium extends BaseClass {
 	
 	LibraryClasses lib = new LibraryClasses();
-	Registration reg;
-	
+	Registration reg;	
 	
 	@Test(dataProvider = "getTestData")
 	public void fillRegistration(String firstName, String lastName, String postalCode, String country) {	
